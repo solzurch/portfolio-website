@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My First Project</title>
+    <link rel="shortcut icon" href="img/city-monster.png">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.production.css">
+</head>
+
+
+<body>
+    <header class="page-header">
+        <img id="logo" src="img/city-monster.svg" width="200" height="70" alt="logo" class="page-header__item">
+        <nav class="main-navigtion page-header__item">
+            <ul role="menubar" class="navigation-list">
+                <li role="presentation">
+                    <a href="index.html" role="menuitem" class="navigation-list__item">Home</a>
+                </li>
+                <li role="presentation">
+                    <a href="about.html" role="menuitem" class="navigation-list__item">About me</a>
+                </li>
+                <li role="presentation">
+                    <a href="work.html" role="menuitem" class="navigation-list__item">My Work</a>
+                </li>
+                <li role="presentation">
+                    <a href="contact.html" role="menuitem" class="navigation-list__item--active">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="heading_contact">
+            <h1>Contact</h1>
+        </div>
+
+        <div class="grid_contact">
+
+            <div class="grid_contact__item">
+                <h2>Sol Lameiro Weissmann</h2>
+                <p>Kurfürstenstr.163</p>
+                <p>10785 Berlin</p>
+                <p>Germany</p>
+                <a href="tel:+49 0178 346 7051"> Telephone: +49 0178 346 7051</a><br>
+                <a href="mailto:solameiro@gmail.com">Email: solameiro@gmail.com</a><br>
+            </div>
+
+            <!-- <nav>
+            <a href="skype:live:solameiro_1">Skype: live:solameiro_1</a><br>
+            <a href="mailto:solameiro@gmail.com">Contact me</a>
+        </nav> -->
+
+            <div class="grid_contact__item">
+                <h3>Contact me</h3>
+                <form action="" method="post" id="contact-form">
+
+                    <label class="standardt-label" for="contact-email">E-mail: </label><br>
+                    <input type="email" id="contact-email" required><br>
+
+                    <label class="standardt-label" for="contact-telephone">Telephone: </label><br>
+                    <input type="tel" id="contact-telephone" pattern="\d{3}[\-]\d{3}[\-]\d{4}"><br>
+
+                    <label class="standardt-label" for="contact-message">Message: </label><br>
+                    <textarea name="contact-form" id="contact-message" cols="30" rows="10"
+                        maxlength="240">Hi...</textarea>
+                    <input type="submit" value="Send message" class="submit">
+                </form>
+            </div>
+        </div>
+    </main>
+    
+    <footer class="page-footer">
+        <p> Find me on</p>
+        <div class="social_media">
+            <a href="https://github.com/" target="_blank">
+                <img src="./img/github-hub-icon.svg" alt="GitHub Icon">
+            </a>
+            <a href="https://linkedin.com/" target="_blank">
+                <img src="./img/linkedin-icon.svg" alt="Linkedin Icon">
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="./img/instagram-icon.svg" alt="Instagram Icon"></a>
+        </div>
+    </footer>
+
+    <script src="js/tota11y.min.js"></script>
+</body>
+
+</html>
