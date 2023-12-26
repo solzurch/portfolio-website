@@ -67,7 +67,7 @@ a {
 a:hover {
   /* sin subrayar al pasar el cursor por un enlace */
   color: #7954e0;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a:focus {
